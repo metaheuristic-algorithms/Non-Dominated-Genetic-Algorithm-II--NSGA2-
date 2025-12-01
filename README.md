@@ -1,28 +1,28 @@
-NSGA-II Implementation
+# NSGA-II Implementation
 
-Introduction
+## Introduction
 
 This repository contains an educational and runnable implementation of the NSGA-II (Non-dominated Sorting Genetic Algorithm II), one of the most popular evolutionary algorithms for solving Multi-Objective Optimization Problems (MOOP).
 
 The implementation supports the Constrained Dominance principle to handle constrained MOOPs and utilizes Fast Non-dominated Sort and Crowding Distance mechanisms to maintain a diverse set of solutions on the Pareto Front.
 
-Features
+## Features
 
 NSGA-II Core: Complete and modular implementation of the main NSGA-II flowchart.
 
 Constrained Dominance: Capability to solve multi-objective optimization problems with constraints (such as Binh-Korn and Chan-Kong-Haimes).
 
-Standard Test Functions: Includes well-known test functions in multi-objective optimization, such as:
+## Standard Test Functions: Includes well-known test functions in multi-objective optimization, such as:
 
-ZDT1, ZDT3
+1. ZDT1, ZDT3
 
-Kursawe, Fonseca
+2. ursawe, Fonseca
 
-Schaffer1, Schaffer2
+3. Schaffer1, Schaffer2
 
-BinhKorn, Chan-Kong-Haimes
+4. BinhKorn, Chan-Kong-Haimes
 
-Genetic Operators: Uses SBX Crossover and Polynomial Mutation for offspring generation.
+## Genetic Operators: Uses SBX Crossover and Polynomial Mutation for offspring generation.
 
 Visualization: Generates a plot of the final Pareto Front using Matplotlib (in the Python version).
 
@@ -30,9 +30,7 @@ File Structure
 
 The project is designed to be modular for clarity and maintainability.
 
-File
-
-Description
+## File Description
 
 Language
 
@@ -105,7 +103,7 @@ To install the required packages, run the following command:
 pip install numpy matplotlib
 
 
-For MATLAB Implementation
+## For MATLAB Implementation
 
 MATLAB: Any recent version that supports scripts and functions.
 
