@@ -109,7 +109,7 @@ MATLAB: Any recent version that supports scripts and functions.
 
 Getting Started
 
-1. Python Implementation
+## 1. Python Implementation
 
 Download or clone the Python files.
 
@@ -120,11 +120,11 @@ python NSGA2_main.py
 
 Change the Problem: To solve a different problem (e.g., BinhKorn), edit the PROBLEM_NAME variable at the top of the NSGA2_main.py file:
 
-# NSGA2_main.py
+ NSGA2_main.py
 PROBLEM_NAME = 'BinhKorn' # Changed from 'ZDT1'
 
 
-2. MATLAB Implementation
+## 2. MATLAB Implementation
 
 Place all .m files in a single directory (folder).
 
@@ -139,11 +139,11 @@ Change the Problem: Modify the problem_name variable at the top of the NSGA2_mai
 problem_name = 'Kursawe'; % Changed from 'ZDT3'
 
 
-Results
+## Results
 
 Upon completion of the algorithm (in the Python version), a plot containing the non-dominated Pareto Front (Front 1) in the Objective Space is displayed. This chart shows the distribution of final solutions and the quality of convergence.
 
-Contribution
+## Contribution
 
 We welcome contributions to improve this code! If you find a bug or have a suggestion, please open an Issue or submit a Pull Request.
 
