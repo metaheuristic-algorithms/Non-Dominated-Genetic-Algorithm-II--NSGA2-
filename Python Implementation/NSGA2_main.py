@@ -11,10 +11,10 @@ from genetic_operators import genetic_operators
 
 # ---------------- CONFIGURATION ----------------
 # Choose problem: 'ZDT1','ZDT3','Kursawe','Fonseca','Schaffer1','Schaffer2','BinhKorn','ChankongHaimes'
-PROBLEM_NAME = 'ZDT1'
+PROBLEM_NAME = 'BinhKorn'
 
 N_POP = 50
-MAX_IT = 50
+MAX_IT = 100
 PC = 0.9      # Crossover Prob
 ETA_C = 15    # Crossover Distribution Index
 ETA_M = 20    # Mutation Distribution Index
